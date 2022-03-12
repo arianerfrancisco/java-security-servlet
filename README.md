@@ -20,12 +20,17 @@
 
 📢 Cada servidor, possui seu modo especifico de configurção, neste projeto foi considerado para o tomcate.
 
+
 # Configurando a autenticação no Tomcat
 
-- Ir no diretório: C:\apache-tomcat-8.5.76\conf e acessar o arquivo: tomcat-users.xml
+- Ir no diretório em que está localizado os arquivos do servidor: C:\apache-tomcat-8.5.76\conf e acessar o arquivo: tomcat-users.xml
 - Para este caso, foi acrescido o seguinte trecho: <user username="user" password="123456" roles="admin"/>
 
 
 # Configurando a autenticação na aplicação
 
-- Configurar no arquivo web.xml a tag <security-role> conforme código fonte.
+- Configurar no arquivo web.xml a tag <security-role> 
+  
+   <security-role>
+        <role-name> admin</role-name>
+    </security-role>
