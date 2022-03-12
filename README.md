@@ -23,8 +23,7 @@
 
 # Configurando a autenticação no Tomcat
 
-- Ir no diretório em que está localizado os arquivos do servidor: C:\apache-tomcat-8.5.76\conf e acessar o arquivo: tomcat-users.xml
-- Para este caso, foi acrescido o seguinte trecho: <user username="user" password="123456" roles="admin"/>
+- Ir no diretório em que está localizado os arquivos do servidor: C:\apache-tomcat-8.5.76\conf e acessar o arquivo: tomcat-users.xml para inserção do usuario e role.
 
 
 # Configurando a autenticação na aplicação
