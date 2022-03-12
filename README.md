@@ -29,8 +29,4 @@
 
 # Configurando a autenticação na aplicação
 
-- Configurar no arquivo web.xml a tag <security-role> 
-  
-   <security-role>
-        <role-name> admin</role-name>
-    </security-role>
+- Configurar no arquivo web.xml conforme o código fonte.
