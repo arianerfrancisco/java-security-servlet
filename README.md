@@ -18,7 +18,7 @@
 - Solicitar ao usuário a inserção de suas credenciais;
 
 
-📢 Cada servidor, possui seu modo especifico de configurção, neste projeto foi considerado para o tomcate.
+📢 Cada servidor, possui seu modo especifico de configurção, neste projeto foi considerado para o Apache Tomcat 8.5.
 
 
 # Configurando a autenticação no Tomcat
